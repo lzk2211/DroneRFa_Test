@@ -38,12 +38,12 @@ Converting spectrograms to frequency vectors. And we convert ResNet to 1d_lw_Res
 
 <img src="./img/resnet unit.png" width="150"/> <img src="./img/1d-lw-resnet18.png" width="200"/> 
 
-Confusion Matrix for the different order of operations and vectors.
+*Confusion Matrix for the different order of operations and vectors.*
 
 <img src="./img/log_sum_time_freq3.png" width="500"/>
 
-Comparison of model accuracy for different distances, as well as different T and
-N values.
+*Comparison of model accuracy for different distances, as well as different T and
+N values.*
 
 <img src="./img/acc.png" width="500"/>
 
