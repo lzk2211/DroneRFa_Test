@@ -1,6 +1,5 @@
 # 1D-LW-ResNet: High-Efficiency UAV Detector Based on RF Signals
 
-<<<<<<< HEAD
 ## Introduction
 
 1d_lw_ResNet is a simplified version of the ResNet network for the task of classifying and identifying RF signals from UAVs. Our work found that the feature distribution obtained along the frequency dimension in the spectrogram is more sparse, so we used a one-dimensional frequency vector as the input to the network, and changed ResNet to a one-dimensional network as well, which greatly reduces the number of parameters, and with the original Compared with the original method, this project guarantees the same accuracy and greatly reduces the number of parameters.
@@ -33,13 +32,13 @@ For these time-domain signal datasets, we use the STFT transform to convert them
 
 *Spectrogram of UAV Signal*
 
-<img src="./img/tf1.png" width="400"/> 
-<img src="./img/tf2.png" width="400"/> 
+<img src="./img/tf1.png" width="200"/> 
+<img src="./img/tf2.png" width="200"/> 
 
 Converting spectrograms to frequency vectors. And we convert ResNet to 1d_lw_ResNet, as shown in Figure.
 
-<img src="./img/resnet unit.png" width="300"/> 
-<img src="./img/1d-lw-resnet18.png" width="400"/> 
+<img src="./img/resnet unit.png" width="150"/> 
+<img src="./img/1d-lw-resnet18.png" width="200"/> 
 
 Confusion Matrix for the different order of operations and vectors.
 
