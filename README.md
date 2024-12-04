@@ -32,13 +32,11 @@ For these time-domain signal datasets, we use the STFT transform to convert them
 
 *Spectrogram of UAV Signal*
 
-<img src="./img/tf1.png" width="200"/> 
-<img src="./img/tf2.png" width="200"/> 
+<img src="./img/tf1.png" width="200"/> <img src="./img/tf2.png" width="200"/> 
 
 Converting spectrograms to frequency vectors. And we convert ResNet to 1d_lw_ResNet, as shown in Figure.
 
-<img src="./img/resnet unit.png" width="150"/> 
-<img src="./img/1d-lw-resnet18.png" width="200"/> 
+<img src="./img/resnet unit.png" width="150"/> <img src="./img/1d-lw-resnet18.png" width="200"/> 
 
 Confusion Matrix for the different order of operations and vectors.
 
